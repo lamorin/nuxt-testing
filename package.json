@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test:unit": "vitest run --environment jsdom"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils-edge": "^3.0.0-rc.13-27781436.1f6b3be",
+    "@vitejs/plugin-vue": "^3.2.0",
+    "@vue/test-utils": "^2.2.1",
+    "jsdom": "^20.0.2",
+    "nuxt": "3.0.0-rc.12",
+    "vite": "^3.2.2",
+    "vitest": "^0.24.4"
+  },
+  "dependencies": {
+    "vue": "^3.2.41"
+  }
+}
