@@ -6,7 +6,9 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "test:unit": "vitest run --environment jsdom"
+    "test:unit-old": "vitest run --environment jsdom",
+    "test": "vitest --run --reporter verbose --globals --environment jsdom --globals",
+    "test:watch": "vitest --reporter verbose --globals"
   },
   "devDependencies": {
     "@nuxt/test-utils-edge": "^3.0.0-rc.13-27781436.1f6b3be",
@@ -14,6 +16,7 @@
     "@vue/test-utils": "^2.2.1",
     "jsdom": "^20.0.2",
     "nuxt": "3.0.0-rc.12",
+    "unplugin-auto-import": "^0.12.1",
     "vite": "^3.2.2",
     "vitest": "^0.24.4"
   },
