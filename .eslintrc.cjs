@@ -5,6 +5,7 @@ module.exports = {
         eqeqeq: "off",
         curly: "error",
         quotes: ["warn", "single"],
-        "vue/multi-word-component-names": "warn"
+        "vue/multi-word-component-names": "warn",
+        "indent": ["error", 2]
     }
 };

@@ -1,5 +1,5 @@
 <template>
   <div>
-    <HelloWorld :message="'Message'"></HelloWorld>
+    <HelloWorld :message="'Message'" />
   </div>
 </template>

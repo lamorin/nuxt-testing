@@ -9,6 +9,6 @@ export default defineConfig({
         'vue',
         // could add 'vue-router' or 'vitest', whatever else you need.
       ],
-   }),
-   vue()]
+    }),
+    vue()]
 });
