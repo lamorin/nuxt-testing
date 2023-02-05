@@ -10,7 +10,7 @@
     "test": "vitest --run --reporter verbose --globals --environment jsdom --globals",
     "test:watch": "vitest --reporter verbose --globals",
     "prepare": "husky install",
-    "lint": "eslint ."
+    "lint": "eslint . --fix"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.1.1",
