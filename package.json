@@ -8,7 +8,8 @@
     "postinstall": "nuxt prepare",
     "test:unit-old": "vitest run --environment jsdom",
     "test": "vitest --run --reporter verbose --globals --environment jsdom --globals",
-    "test:watch": "vitest --reporter verbose --globals"
+    "test:watch": "vitest --reporter verbose --globals",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@nuxt/test-utils-edge": "^3.0.0-rc.13-27781436.1f6b3be",
@@ -18,7 +19,8 @@
     "nuxt": "3.0.0-rc.12",
     "unplugin-auto-import": "^0.12.1",
     "vite": "^3.2.2",
-    "vitest": "^0.24.4"
+    "vitest": "^0.24.4",
+    "husky": "^8.0.0"
   },
   "dependencies": {
     "vue": "^3.2.41"
